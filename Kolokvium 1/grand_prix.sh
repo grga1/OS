@@ -10,3 +10,4 @@ godina=$2
 
 cat race_results.tsv|grep "$drzava"|grep "$godina"|awk 'BEGIN{count=0} {count++} END{print count}'
 
+

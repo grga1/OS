@@ -6,3 +6,4 @@ if [ $# -lt 1 ]; then
 fi
 
 cat logins.txt|grep "^$1"|awk '{print $NF}'|sed -e 's/(//' -e 's/)//'|awk -F ":>
+

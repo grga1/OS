@@ -18,7 +18,7 @@
 * решение во текстуалната компоненти каде што се наоѓа Starter кодот.*/
 STARTER CODE:
 
-
+<code>
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -60,6 +60,7 @@ public class TcpServerClientCommunication {
 
     }
 }
+</code>
 2.
 Имплементирајте сервер-клиент сценарио со користење на TCP протоколот во кое, клиентите можат да праќаат и да преземаат текстуални фајлови од фајл серверот. Серверот треба да поддржува повеќе клиенти истовремено.
 

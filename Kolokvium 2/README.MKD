@@ -17,6 +17,8 @@
 Потребните измени направете ги во Starter кодот за да го имплементирате сценариото. На крај, ископирајте го вашето
 * решение во текстуалната компоненти каде што се наоѓа Starter кодот.*/
 STARTER CODE:
+
+
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.net.ServerSocket;

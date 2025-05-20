@@ -108,3 +108,6 @@ public class TcpServerClientCommunication {
     }
 }
 </code>
+
+3.
+<img src="https://media.discordapp.net/attachments/1374104418441498694/1374104528948826112/IMG-eed7d9198970811148c8f0cd9d01ee47-V.jpg?ex=682d7ed1&is=682c2d51&hm=2b44b99c423b3ed2370fafba032989243b3c7da365f0829d09b8b648ffc6f2f0&=&format=webp&width=486&height=649">

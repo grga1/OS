@@ -60,3 +60,49 @@ public class TcpServerClientCommunication {
 
     }
 }
+2.
+Имплементирајте сервер-клиент сценарио со користење на TCP протоколот во кое, клиентите можат да праќаат и да преземаат текстуални фајлови од фајл серверот. Серверот треба да поддржува повеќе клиенти истовремено.
+
+Притоа, серверот треба да може да одговара на три команди од клиентот:
+
+- UPLOAD: оваа порака означува дека клиентот ќе почне да праќа фајл. Во нов ред го праќа името на фајлот и клучниот збор BEGIN, па од наредниот ред клиентот ја праќа содржината на фајлот. Крајот го означува со END.
+
+- LIST: после оваа порака, серверот треба да му ги излиста на клиентот сите фајлови со екстензија .txt во дадениот дифолтен фолдер. Притоа му ги праќа името на фајлот, големината и датумот кога е креиран. Податоците за секој фајл да бидат одделени во нов ред.
+
+- DOWNLOAD imenafajl.txt: клиентот бара серверот да му прати даден фајл. После оваа порака, серверот му ја праќа на клиентот содржината на фајлот со даденото име (користете BEGIN и END во посебни редови за да означете почеток и крај на фајлот) .  
+
+Серверот слуша на порта 9357.
+
+Потребните измени направете ги во Starter кодот за да го имплементирате сценариото. На крај, ископирајте го вашето решение во текстуалната компоненти каде што се наоѓа Starter кодот.
+STARTER CODE:
+
+package sockets;
+
+import java.net.Socket;
+
+public class TcpServerClientCommunication {
+    class TcpServer {
+        public TcpServer(int port, String fileOutput) {
+            //TODO: implement the constructor and init the TCP Server
+        }
+        public void listen() {
+            //TODO: Implement listen method by using SocketWorkerThread
+            // for each TCP connection
+        }
+    }
+    class TcpClient {
+        public TcpClient(String serverIpAddress, int port) {
+            //TODO: Implement the constructor and init the connection with TCP Server
+        }
+    }
+    class SocketWorkerThread {
+        public SocketWorkerThread(Socket socket,String dir) {
+            //TODO: implement server-client communication
+            // by using the reference of socket
+        }
+    }
+    public static void main(String[] args) {
+        //TODO: implement initial tests with one instance of TCPServer
+        //and multiple threads of TCPClient
+    }
+}

@@ -75,7 +75,7 @@ public class TcpServerClientCommunication {
 
 Потребните измени направете ги во Starter кодот за да го имплементирате сценариото. На крај, ископирајте го вашето решение во текстуалната компоненти каде што се наоѓа Starter кодот.
 STARTER CODE:
-
+<code>
 package sockets;
 
 import java.net.Socket;
@@ -106,3 +106,4 @@ public class TcpServerClientCommunication {
         //and multiple threads of TCPClient
     }
 }
+</code>
